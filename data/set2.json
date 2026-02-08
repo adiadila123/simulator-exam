@@ -1,0 +1,278 @@
+[
+  {
+    "id": 3016,
+    "type": "truefalse",
+    "text": "Sunk costs should affect current economic decisions.",
+    "correct": false,
+    "explanation": "Incorrect. Rational decisions depend on marginal costs/benefits; sunk costs are unrecoverable.",
+    "topic": "Opportunity Cost",
+    "difficulty": "medium"
+  },
+  {
+    "id": 3022,
+    "type": "multiple",
+    "text": "Which set best describes the three fundamental economic questions?",
+    "options": [
+      "What to produce, how to produce, for whom to produce",
+      "Inflation, unemployment, growth",
+      "Taxes, spending, borrowing",
+      "Profit, revenue, cost"
+    ],
+    "correct": 0,
+    "explanation": "The core economic problem is allocation: what/how/for whom to produce.",
+    "topic": "Introduction",
+    "difficulty": "easy"
+  },
+  {
+    "id": 3003,
+    "type": "multiple",
+    "text": "An increase in input costs will typically:",
+    "options": [
+      "Shift supply right",
+      "Shift supply left",
+      "Move along supply to higher quantity",
+      "Shift demand right"
+    ],
+    "correct": 1,
+    "explanation": "Higher input costs reduce supply at each price (leftward shift).",
+    "topic": "Supply",
+    "difficulty": "medium"
+  },
+  {
+    "id": 3004,
+    "type": "multiple",
+    "text": "A fall in the price of a good causes:",
+    "options": [
+      "A movement along the demand curve",
+      "A rightward shift of demand",
+      "A leftward shift of demand",
+      "No change in quantity demanded"
+    ],
+    "correct": 0,
+    "explanation": "A change in own price causes movement along demand (change in quantity demanded).",
+    "topic": "Demand",
+    "difficulty": "easy"
+  },
+  {
+    "id": 3128,
+    "type": "calculation",
+    "text": "If demand is Qd = 130 - 4P and supply is Qs = 20 + 3P, what is the equilibrium price?",
+    "correct": 15.71,
+    "tolerance": 0.1,
+    "explanation": "Set Qd=Qs: 130-4P=20+3P → 110=7P → P=15.71.",
+    "topic": "Market Equilibrium",
+    "difficulty": "medium",
+    "steps": [
+      "Set Qd=Qs: 130-4P=20+3P",
+      "110=7P",
+      "P=15.71"
+    ]
+  },
+  {
+    "id": 3169,
+    "type": "calculation",
+    "text": "If demand is Qd = 130 - 5P and supply is Qs = 30 + 2P, what is the equilibrium price?",
+    "correct": 14.29,
+    "tolerance": 0.1,
+    "explanation": "Set Qd=Qs: 130-5P=30+2P → 100=7P → P=14.29.",
+    "topic": "Market Equilibrium",
+    "difficulty": "medium",
+    "steps": [
+      "Set Qd=Qs: 130-5P=30+2P",
+      "100=7P",
+      "P=14.29"
+    ]
+  },
+  {
+    "id": 3043,
+    "type": "calculation",
+    "text": "A £4 tax is imposed. Price consumers pay rises from £10 to £12. What % of the tax is borne by consumers?",
+    "correct": 50.0,
+    "tolerance": 1.0,
+    "explanation": "Consumers pay £2 of £4 → 2/4 = 50.0%.",
+    "topic": "Tax Incidence",
+    "difficulty": "medium",
+    "steps": [
+      "Consumers pay £2 of £4",
+      "2/4 = 50.0%"
+    ]
+  },
+  {
+    "id": 3101,
+    "type": "calculation",
+    "text": "A £4 tax is imposed. Price consumers pay rises from £12 to £14. What % of the tax is borne by consumers?",
+    "correct": 50.0,
+    "tolerance": 1.0,
+    "explanation": "Consumers pay £2 of £4 → 2/4 = 50.0%.",
+    "topic": "Tax Incidence",
+    "difficulty": "medium",
+    "steps": [
+      "Consumers pay £2 of £4",
+      "2/4 = 50.0%"
+    ]
+  },
+  {
+    "id": 3012,
+    "type": "truefalse",
+    "text": "Average fixed cost (AFC) falls as output rises.",
+    "correct": true,
+    "explanation": "Correct. Fixed cost is spread over more units.",
+    "topic": "Costs",
+    "difficulty": "easy"
+  },
+  {
+    "id": 3020,
+    "type": "calculation",
+    "text": "A firm's total cost is TC = 50 + 4Q + 0.5Q². What is MC when Q=6?",
+    "correct": 10,
+    "tolerance": 0.1,
+    "explanation": "MC=dTC/dQ=4+Q. At Q=6, MC=10.",
+    "topic": "Costs",
+    "difficulty": "hard",
+    "steps": [
+      "MC=dTC/dQ=4+Q",
+      "At Q=6, MC=10"
+    ]
+  },
+  {
+    "id": 3041,
+    "type": "calculation",
+    "text": "If a monopolist faces demand P = 80 - Q and has MC = 12, what price does it charge?",
+    "correct": 46.0,
+    "tolerance": 0.1,
+    "explanation": "MR = 80 - 2Q. Set MR=MC: 80-2Q=12 → Q=34.00. Then P=46.0.",
+    "topic": "Monopoly",
+    "difficulty": "hard",
+    "steps": [
+      "MR = 80 - 2Q. Set MR=MC: 80-2Q=12",
+      "Q=34.00. Then P=46.0"
+    ]
+  },
+  {
+    "id": 3035,
+    "type": "multiple",
+    "text": "A competitive firm should shut down in the short run when:",
+    "options": [
+      "Price is below average variable cost (P < AVC)",
+      "Price is below average total cost (P < ATC)",
+      "Price is below marginal cost (P < MC)",
+      "Price is below average fixed cost (P < AFC)"
+    ],
+    "correct": 0,
+    "explanation": "In the short run, a perfectly competitive firm shuts down if price is below AVC, because it cannot cover variable costs.",
+    "topic": "Perfect Competition",
+    "difficulty": "hard"
+  },
+  {
+    "id": 3028,
+    "type": "multiple",
+    "text": "The kinked demand curve model is often used to explain:",
+    "options": [
+      "Why prices are stable",
+      "Why entry is easy",
+      "Why profits are always zero",
+      "Why marginal costs are constant"
+    ],
+    "correct": 0,
+    "explanation": "It predicts price rigidity because rivals match price cuts but not increases.",
+    "topic": "Oligopoly",
+    "difficulty": "hard"
+  },
+  {
+    "id": 3025,
+    "type": "truefalse",
+    "text": "Product differentiation is a key feature of monopolistic competition.",
+    "correct": true,
+    "explanation": "Correct. Firms differentiate products via branding/quality/features.",
+    "topic": "Monopolistic Competition",
+    "difficulty": "easy"
+  },
+  {
+    "id": 3121,
+    "type": "calculation",
+    "text": "If demand is Qd = 100 - 2P and supply is Qs = 30 + 1P, what is the equilibrium price?",
+    "correct": 23.33,
+    "tolerance": 0.1,
+    "explanation": "Set Qd=Qs: 100-2P=30+1P → 70=3P → P=23.33.",
+    "topic": "Market Equilibrium",
+    "difficulty": "medium",
+    "steps": [
+      "Set Qd=Qs: 100-2P=30+1P",
+      "70=3P",
+      "P=23.33"
+    ]
+  },
+  {
+    "id": 3024,
+    "type": "multiple",
+    "text": "In the long run under monopolistic competition, firms tend to earn:",
+    "options": [
+      "Positive economic profit",
+      "Zero economic profit",
+      "Guaranteed monopoly profit",
+      "Negative profit by definition"
+    ],
+    "correct": 1,
+    "explanation": "Entry drives economic profit to zero in the long run.",
+    "topic": "Monopolistic Competition",
+    "difficulty": "medium"
+  },
+  {
+    "id": 3092,
+    "type": "calculation",
+    "text": "If a monopolist faces demand P = 70 - Q and has MC = 10, what price does it charge?",
+    "correct": 40.0,
+    "tolerance": 0.1,
+    "explanation": "MR = 70 - 2Q. Set MR=MC: 70-2Q=10 → Q=30.00. Then P=40.0.",
+    "topic": "Monopoly",
+    "difficulty": "hard",
+    "steps": [
+      "MR = 70 - 2Q. Set MR=MC: 70-2Q=10",
+      "Q=30.00. Then P=40.0"
+    ]
+  },
+  {
+    "id": 3097,
+    "type": "calculation",
+    "text": "A £4 tax is imposed. Price consumers pay rises from £14 to £15. What % of the tax is borne by consumers?",
+    "correct": 25.0,
+    "tolerance": 1.0,
+    "explanation": "Consumers pay £1 of £4 → 1/4 = 25.0%.",
+    "topic": "Tax Incidence",
+    "difficulty": "medium",
+    "steps": [
+      "Consumers pay £1 of £4",
+      "1/4 = 25.0%"
+    ]
+  },
+  {
+    "id": 3164,
+    "type": "calculation",
+    "text": "If demand is Qd = 100 - 5P and supply is Qs = 40 + 3P, what is the equilibrium price?",
+    "correct": 7.5,
+    "tolerance": 0.1,
+    "explanation": "Set Qd=Qs: 100-5P=40+3P → 60=8P → P=7.5.",
+    "topic": "Market Equilibrium",
+    "difficulty": "medium",
+    "steps": [
+      "Set Qd=Qs: 100-5P=40+3P",
+      "60=8P",
+      "P=7.5"
+    ]
+  },
+  {
+    "id": 3142,
+    "type": "calculation",
+    "text": "If demand is Qd = 120 - 5P and supply is Qs = 20 + 2P, what is the equilibrium price?",
+    "correct": 14.29,
+    "tolerance": 0.1,
+    "explanation": "Set Qd=Qs: 120-5P=20+2P → 100=7P → P=14.29.",
+    "topic": "Market Equilibrium",
+    "difficulty": "medium",
+    "steps": [
+      "Set Qd=Qs: 120-5P=20+2P",
+      "100=7P",
+      "P=14.29"
+    ]
+  }
+]

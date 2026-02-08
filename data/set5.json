@@ -1,0 +1,291 @@
+[
+  {
+    "id": 3037,
+    "type": "multiple",
+    "text": "A rightward shift of demand means:",
+    "options": [
+      "Higher quantity demanded at every price",
+      "Lower quantity demanded at every price",
+      "Higher price at every quantity",
+      "A movement along the curve"
+    ],
+    "correct": 0,
+    "explanation": "A shift changes demand at all prices.",
+    "topic": "Demand",
+    "difficulty": "easy"
+  },
+  {
+    "id": 3133,
+    "type": "calculation",
+    "text": "If demand is Qd = 100 - 5P and supply is Qs = 20 + 2P, what is the equilibrium price?",
+    "correct": 11.43,
+    "tolerance": 0.1,
+    "explanation": "Set Qd=Qs: 100-5P=20+2P → 80=7P → P=11.43.",
+    "topic": "Market Equilibrium",
+    "difficulty": "medium",
+    "steps": [
+      "Set Qd=Qs: 100-5P=20+2P",
+      "80=7P",
+      "P=11.43"
+    ]
+  },
+  {
+    "id": 3148,
+    "type": "calculation",
+    "text": "If demand is Qd = 90 - 2P and supply is Qs = 30 + 3P, what is the equilibrium price?",
+    "correct": 12.0,
+    "tolerance": 0.1,
+    "explanation": "Set Qd=Qs: 90-2P=30+3P → 60=5P → P=12.0.",
+    "topic": "Market Equilibrium",
+    "difficulty": "medium",
+    "steps": [
+      "Set Qd=Qs: 90-2P=30+3P",
+      "60=5P",
+      "P=12.0"
+    ]
+  },
+  {
+    "id": 3106,
+    "type": "calculation",
+    "text": "A £4 tax is imposed. Price consumers pay rises from £10 to £13. What % of the tax is borne by consumers?",
+    "correct": 75.0,
+    "tolerance": 1.0,
+    "explanation": "Consumers pay £3 of £4 → 3/4 = 75.0%.",
+    "topic": "Tax Incidence",
+    "difficulty": "medium",
+    "steps": [
+      "Consumers pay £3 of £4",
+      "3/4 = 75.0%"
+    ]
+  },
+  {
+    "id": 3132,
+    "type": "calculation",
+    "text": "A £4 tax is imposed. Price consumers pay rises from £8 to £11. What % of the tax is borne by consumers?",
+    "correct": 75.0,
+    "tolerance": 1.0,
+    "explanation": "Consumers pay £3 of £4 → 3/4 = 75.0%.",
+    "topic": "Tax Incidence",
+    "difficulty": "medium",
+    "steps": [
+      "Consumers pay £3 of £4",
+      "3/4 = 75.0%"
+    ]
+  },
+  {
+    "id": 3074,
+    "type": "truefalse",
+    "text": "For a monopolist with downward-sloping demand, marginal revenue is less than price.",
+    "correct": true,
+    "explanation": "Correct. Selling extra units requires lowering price on all units.",
+    "topic": "Monopoly",
+    "difficulty": "hard"
+  },
+  {
+    "id": 3075,
+    "type": "multiple",
+    "text": "Monopoly creates deadweight loss because:",
+    "options": [
+      "P equals MC",
+      "Output is restricted below the efficient level",
+      "Firms earn zero profit",
+      "Demand is perfectly elastic"
+    ],
+    "correct": 1,
+    "explanation": "Monopolies restrict output so P>MC, reducing total surplus.",
+    "topic": "Monopoly",
+    "difficulty": "medium"
+  },
+  {
+    "id": 3145,
+    "type": "calculation",
+    "text": "If demand is Qd = 120 - 4P and supply is Qs = 10 + 3P, what is the equilibrium price?",
+    "correct": 15.71,
+    "tolerance": 0.1,
+    "explanation": "Set Qd=Qs: 120-4P=10+3P → 110=7P → P=15.71.",
+    "topic": "Market Equilibrium",
+    "difficulty": "medium",
+    "steps": [
+      "Set Qd=Qs: 120-4P=10+3P",
+      "110=7P",
+      "P=15.71"
+    ]
+  },
+  {
+    "id": 3139,
+    "type": "calculation",
+    "text": "A £5 tax is imposed. Price consumers pay rises from £14 to £17. What % of the tax is borne by consumers?",
+    "correct": 60.0,
+    "tolerance": 1.0,
+    "explanation": "Consumers pay £3 of £5 → 3/5 = 60.0%.",
+    "topic": "Tax Incidence",
+    "difficulty": "medium",
+    "steps": [
+      "Consumers pay £3 of £5",
+      "3/5 = 60.0%"
+    ]
+  },
+  {
+    "id": 3152,
+    "type": "calculation",
+    "text": "If demand is Qd = 110 - 2P and supply is Qs = 20 + 2P, what is the equilibrium price?",
+    "correct": 22.5,
+    "tolerance": 0.1,
+    "explanation": "Set Qd=Qs: 110-2P=20+2P → 90=4P → P=22.5.",
+    "topic": "Market Equilibrium",
+    "difficulty": "medium",
+    "steps": [
+      "Set Qd=Qs: 110-2P=20+2P",
+      "90=4P",
+      "P=22.5"
+    ]
+  },
+  {
+    "id": 3120,
+    "type": "calculation",
+    "text": "If demand is Qd = 100 - 4P and supply is Qs = 30 + 3P, what is the equilibrium price?",
+    "correct": 10.0,
+    "tolerance": 0.1,
+    "explanation": "Set Qd=Qs: 100-4P=30+3P → 70=7P → P=10.0.",
+    "topic": "Market Equilibrium",
+    "difficulty": "medium",
+    "steps": [
+      "Set Qd=Qs: 100-4P=30+3P",
+      "70=7P",
+      "P=10.0"
+    ]
+  },
+  {
+    "id": 3105,
+    "type": "calculation",
+    "text": "If demand is Qd = 90 - 3P and supply is Qs = 20 + 3P, what is the equilibrium price?",
+    "correct": 11.67,
+    "tolerance": 0.1,
+    "explanation": "Set Qd=Qs: 90-3P=20+3P → 70=6P → P=11.67.",
+    "topic": "Market Equilibrium",
+    "difficulty": "medium",
+    "steps": [
+      "Set Qd=Qs: 90-3P=20+3P",
+      "70=6P",
+      "P=11.67"
+    ]
+  },
+  {
+    "id": 3160,
+    "type": "calculation",
+    "text": "If demand is Qd = 110 - 4P and supply is Qs = 20 + 1P, what is the equilibrium price?",
+    "correct": 18.0,
+    "tolerance": 0.1,
+    "explanation": "Set Qd=Qs: 110-4P=20+1P → 90=5P → P=18.0.",
+    "topic": "Market Equilibrium",
+    "difficulty": "medium",
+    "steps": [
+      "Set Qd=Qs: 110-4P=20+1P",
+      "90=5P",
+      "P=18.0"
+    ]
+  },
+  {
+    "id": 3181,
+    "type": "calculation",
+    "text": "If demand is Qd = 100 - 3P and supply is Qs = 40 + 3P, what is the equilibrium price?",
+    "correct": 10.0,
+    "tolerance": 0.1,
+    "explanation": "Set Qd=Qs: 100-3P=40+3P → 60=6P → P=10.0.",
+    "topic": "Market Equilibrium",
+    "difficulty": "medium",
+    "steps": [
+      "Set Qd=Qs: 100-3P=40+3P",
+      "60=6P",
+      "P=10.0"
+    ]
+  },
+  {
+    "id": 3108,
+    "type": "calculation",
+    "text": "If demand is Qd = 90 - 3P and supply is Qs = 30 + 1P, what is the equilibrium price?",
+    "correct": 15.0,
+    "tolerance": 0.1,
+    "explanation": "Set Qd=Qs: 90-3P=30+1P → 60=4P → P=15.0.",
+    "topic": "Market Equilibrium",
+    "difficulty": "medium",
+    "steps": [
+      "Set Qd=Qs: 90-3P=30+1P",
+      "60=4P",
+      "P=15.0"
+    ]
+  },
+  {
+    "id": 3090,
+    "type": "calculation",
+    "text": "A £3 tax is imposed. Price consumers pay rises from £10 to £12. What % of the tax is borne by consumers?",
+    "correct": 66.67,
+    "tolerance": 1.0,
+    "explanation": "Consumers pay £2 of £3 → 2/3 = 66.67%.",
+    "topic": "Tax Incidence",
+    "difficulty": "medium",
+    "steps": [
+      "Consumers pay £2 of £3",
+      "2/3 = 66.67%"
+    ]
+  },
+  {
+    "id": 3018,
+    "type": "multiple",
+    "text": "A negative externality exists when:",
+    "options": [
+      "Social cost > private cost",
+      "Private benefit > social benefit",
+      "Social benefit = private benefit",
+      "Market is perfectly competitive"
+    ],
+    "correct": 0,
+    "explanation": "External costs imply MSC exceeds MPC.",
+    "topic": "Market Failure",
+    "difficulty": "medium"
+  },
+  {
+    "id": 3159,
+    "type": "calculation",
+    "text": "If demand is Qd = 110 - 3P and supply is Qs = 40 + 2P, what is the equilibrium price?",
+    "correct": 14.0,
+    "tolerance": 0.1,
+    "explanation": "Set Qd=Qs: 110-3P=40+2P → 70=5P → P=14.0.",
+    "topic": "Market Equilibrium",
+    "difficulty": "medium",
+    "steps": [
+      "Set Qd=Qs: 110-3P=40+2P",
+      "70=5P",
+      "P=14.0"
+    ]
+  },
+  {
+    "id": 3111,
+    "type": "calculation",
+    "text": "If demand is Qd = 100 - 5P and supply is Qs = 10 + 1P, what is the equilibrium price?",
+    "correct": 15.0,
+    "tolerance": 0.1,
+    "explanation": "Set Qd=Qs: 100-5P=10+1P → 90=6P → P=15.0.",
+    "topic": "Market Equilibrium",
+    "difficulty": "medium",
+    "steps": [
+      "Set Qd=Qs: 100-5P=10+1P",
+      "90=6P",
+      "P=15.0"
+    ]
+  },
+  {
+    "id": 3144,
+    "type": "calculation",
+    "text": "A £2 tax is imposed. Price consumers pay rises from £12 to £13. What % of the tax is borne by consumers?",
+    "correct": 50.0,
+    "tolerance": 1.0,
+    "explanation": "Consumers pay £1 of £2 → 1/2 = 50.0%.",
+    "topic": "Tax Incidence",
+    "difficulty": "medium",
+    "steps": [
+      "Consumers pay £1 of £2",
+      "1/2 = 50.0%"
+    ]
+  }
+]

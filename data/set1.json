@@ -1,0 +1,292 @@
+[
+  {
+    "id": 3002,
+    "type": "multiple",
+    "text": "Which statement is normative?",
+    "options": [
+      "A price increase reduces quantity demanded, ceteris paribus.",
+      "The government should increase healthcare spending.",
+      "Higher taxes raise government revenue.",
+      "A tariff increases the domestic price of imports."
+    ],
+    "correct": 1,
+    "explanation": "Normative statements include value judgements (what should happen).",
+    "topic": "Introduction",
+    "difficulty": "medium"
+  },
+  {
+    "id": 3049,
+    "type": "multiple",
+    "text": "A point outside the PPF is:",
+    "options": [
+      "Efficient",
+      "Inefficient",
+      "Unattainable with current resources/technology",
+      "Always attainable"
+    ],
+    "correct": 2,
+    "explanation": "Outside the PPF cannot be produced with current resources and technology.",
+    "topic": "Introduction",
+    "difficulty": "medium"
+  },
+  {
+    "id": 3008,
+    "type": "multiple",
+    "text": "The market supply curve is:",
+    "options": [
+      "The sum of all prices firms are willing to accept",
+      "The sum of quantities supplied by all firms at each price",
+      "The average supply of a typical firm",
+      "The maximum quantity demanded"
+    ],
+    "correct": 1,
+    "explanation": "Market supply adds up quantities supplied across firms at each price.",
+    "topic": "Supply",
+    "difficulty": "easy"
+  },
+  {
+    "id": 3011,
+    "type": "multiple",
+    "text": "A technological improvement in production will usually:",
+    "options": [
+      "Shift supply left",
+      "Shift supply right",
+      "Shift demand right",
+      "Reduce quantity supplied at each price"
+    ],
+    "correct": 1,
+    "explanation": "Better technology lowers costs and increases supply (rightward shift).",
+    "topic": "Supply",
+    "difficulty": "medium"
+  },
+  {
+    "id": 3086,
+    "type": "calculation",
+    "text": "If demand is Qd = 110 - 5P and supply is Qs = 30 + 2P, what is the equilibrium price?",
+    "correct": 11.43,
+    "tolerance": 0.1,
+    "explanation": "Set Qd=Qs: 110-5P=30+2P → 80=7P → P=11.43.",
+    "topic": "Market Equilibrium",
+    "difficulty": "medium",
+    "steps": [
+      "Set Qd=Qs: 110-5P=30+2P",
+      "80=7P",
+      "P=11.43"
+    ]
+  },
+  {
+    "id": 3125,
+    "type": "calculation",
+    "text": "If demand is Qd = 110 - 5P and supply is Qs = 30 + 3P, what is the equilibrium price?",
+    "correct": 10.0,
+    "tolerance": 0.1,
+    "explanation": "Set Qd=Qs: 110-5P=30+3P → 80=8P → P=10.0.",
+    "topic": "Market Equilibrium",
+    "difficulty": "medium",
+    "steps": [
+      "Set Qd=Qs: 110-5P=30+3P",
+      "80=8P",
+      "P=10.0"
+    ]
+  },
+  {
+    "id": 3032,
+    "type": "multiple",
+    "text": "A binding price floor will tend to:",
+    "options": [
+      "Increase quantity traded",
+      "Decrease quantity traded",
+      "Eliminate deadweight loss",
+      "Raise consumer surplus"
+    ],
+    "correct": 1,
+    "explanation": "Binding floors reduce quantity traded relative to equilibrium.",
+    "topic": "Price Controls",
+    "difficulty": "hard"
+  },
+  {
+    "id": 3087,
+    "type": "calculation",
+    "text": "A £3 tax is imposed. Price consumers pay rises from £12 to £14. What % of the tax is borne by consumers?",
+    "correct": 66.67,
+    "tolerance": 1.0,
+    "explanation": "Consumers pay £2 of £3 → 2/3 = 66.67%.",
+    "topic": "Tax Incidence",
+    "difficulty": "medium",
+    "steps": [
+      "Consumers pay £2 of £3",
+      "2/3 = 66.67%"
+    ]
+  },
+  {
+    "id": 3001,
+    "type": "multiple",
+    "text": "A profit-maximising firm chooses output where:",
+    "options": [
+      "P=MC",
+      "MR=MC",
+      "TR is maximised",
+      "AC is minimised"
+    ],
+    "correct": 1,
+    "explanation": "Profit max occurs where MR=MC.",
+    "topic": "Revenues & Profit",
+    "difficulty": "medium"
+  },
+  {
+    "id": 3061,
+    "type": "multiple",
+    "text": "Marginal cost (MC) is:",
+    "options": [
+      "TC/Q",
+      "ΔTC/ΔQ",
+      "TVC/Q",
+      "FC+VC"
+    ],
+    "correct": 1,
+    "explanation": "MC is the extra cost of producing one more unit.",
+    "topic": "Costs",
+    "difficulty": "easy"
+  },
+  {
+    "id": 3077,
+    "type": "calculation",
+    "text": "If a monopolist faces demand P = 80 - Q and has MC = 15, what price does it charge?",
+    "correct": 47.5,
+    "tolerance": 0.1,
+    "explanation": "MR = 80 - 2Q. Set MR=MC: 80-2Q=15 → Q=32.50. Then P=47.5.",
+    "topic": "Monopoly",
+    "difficulty": "hard",
+    "steps": [
+      "MR = 80 - 2Q. Set MR=MC: 80-2Q=15",
+      "Q=32.50. Then P=47.5"
+    ]
+  },
+  {
+    "id": 3051,
+    "type": "calculation",
+    "text": "If a monopolist faces demand P = 50 - Q and has MC = 20, what price does it charge?",
+    "correct": 35.0,
+    "tolerance": 0.1,
+    "explanation": "MR = 50 - 2Q. Set MR=MC: 50-2Q=20 → Q=15.00. Then P=35.0.",
+    "topic": "Monopoly",
+    "difficulty": "hard",
+    "steps": [
+      "MR = 50 - 2Q. Set MR=MC: 50-2Q=20",
+      "Q=15.00. Then P=35.0"
+    ]
+  },
+  {
+    "id": 3031,
+    "type": "truefalse",
+    "text": "A Nash equilibrium occurs when each player chooses a best response to others’ strategies.",
+    "correct": true,
+    "explanation": "Correct. No one can improve payoff by deviating alone.",
+    "topic": "Oligopoly",
+    "difficulty": "hard"
+  },
+  {
+    "id": 3017,
+    "type": "multiple",
+    "text": "A typical inefficiency in monopolistic competition is:",
+    "options": [
+      "Excess capacity (P > minimum ATC)",
+      "Perfect allocative efficiency always holds",
+      "No advertising costs",
+      "Perfectly elastic firm demand"
+    ],
+    "correct": 0,
+    "explanation": "Output is below the minimum-ATC scale and P>MC.",
+    "topic": "Monopolistic Competition",
+    "difficulty": "hard"
+  },
+  {
+    "id": 3188,
+    "type": "calculation",
+    "text": "If demand is Qd = 120 - 3P and supply is Qs = 40 + 2P, what is the equilibrium price?",
+    "correct": 16.0,
+    "tolerance": 0.1,
+    "explanation": "Set Qd=Qs: 120-3P=40+2P → 80=5P → P=16.0.",
+    "topic": "Market Equilibrium",
+    "difficulty": "medium",
+    "steps": [
+      "Set Qd=Qs: 120-3P=40+2P",
+      "80=5P",
+      "P=16.0"
+    ]
+  },
+  {
+    "id": 3055,
+    "type": "calculation",
+    "text": "If a monopolist faces demand P = 50 - Q and has MC = 10, what price does it charge?",
+    "correct": 30.0,
+    "tolerance": 0.1,
+    "explanation": "MR = 50 - 2Q. Set MR=MC: 50-2Q=10 → Q=20.00. Then P=30.0.",
+    "topic": "Monopoly",
+    "difficulty": "hard",
+    "steps": [
+      "MR = 50 - 2Q. Set MR=MC: 50-2Q=10",
+      "Q=20.00. Then P=30.0"
+    ]
+  },
+  {
+    "id": 3089,
+    "type": "calculation",
+    "text": "If demand is Qd = 110 - 3P and supply is Qs = 40 + 1P, what is the equilibrium price?",
+    "correct": 17.5,
+    "tolerance": 0.1,
+    "explanation": "Set Qd=Qs: 110-3P=40+1P → 70=4P → P=17.5.",
+    "topic": "Market Equilibrium",
+    "difficulty": "medium",
+    "steps": [
+      "Set Qd=Qs: 110-3P=40+1P",
+      "70=4P",
+      "P=17.5"
+    ]
+  },
+  {
+    "id": 3078,
+    "type": "calculation",
+    "text": "If demand is Qd = 130 - 2P and supply is Qs = 40 + 3P, what is the equilibrium price?",
+    "correct": 18.0,
+    "tolerance": 0.1,
+    "explanation": "Set Qd=Qs: 130-2P=40+3P → 90=5P → P=18.0.",
+    "topic": "Market Equilibrium",
+    "difficulty": "medium",
+    "steps": [
+      "Set Qd=Qs: 130-2P=40+3P",
+      "90=5P",
+      "P=18.0"
+    ]
+  },
+  {
+    "id": 3059,
+    "type": "multiple",
+    "text": "Opportunity cost is best defined as:",
+    "options": [
+      "The monetary price of an action",
+      "The value of the next-best alternative forgone",
+      "The total benefit gained",
+      "A sunk cost already paid"
+    ],
+    "correct": 1,
+    "explanation": "Opportunity cost is the value of the best alternative you give up.",
+    "topic": "Opportunity Cost",
+    "difficulty": "easy"
+  },
+  {
+    "id": 3180,
+    "type": "calculation",
+    "text": "If demand is Qd = 100 - 2P and supply is Qs = 30 + 2P, what is the equilibrium price?",
+    "correct": 17.5,
+    "tolerance": 0.1,
+    "explanation": "Set Qd=Qs: 100-2P=30+2P → 70=4P → P=17.5.",
+    "topic": "Market Equilibrium",
+    "difficulty": "medium",
+    "steps": [
+      "Set Qd=Qs: 100-2P=30+2P",
+      "70=4P",
+      "P=17.5"
+    ]
+  }
+]

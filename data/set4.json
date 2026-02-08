@@ -1,0 +1,273 @@
+[
+  {
+    "id": 3007,
+    "type": "calculation",
+    "text": "You can work for £60 or study for a benefit you value at £75. What is the opportunity cost of studying (in £)?",
+    "correct": 60,
+    "tolerance": 0,
+    "explanation": "Opportunity cost is the value of the next-best alternative forgone: working (£60).",
+    "topic": "Opportunity Cost",
+    "difficulty": "easy",
+    "steps": [
+      "Opportunity cost is the value of the next-best alternative forgone: working (£60)"
+    ]
+  },
+  {
+    "id": 3065,
+    "type": "truefalse",
+    "text": "On a PPF, points inside the frontier represent productive inefficiency.",
+    "correct": true,
+    "explanation": "Correct. Inside the PPF implies resources are underutilised or misallocated.",
+    "topic": "Introduction",
+    "difficulty": "medium"
+  },
+  {
+    "id": 3014,
+    "type": "truefalse",
+    "text": "Diminishing marginal utility helps explain why demand curves slope downward.",
+    "correct": true,
+    "explanation": "Correct. Additional units give less extra utility, lowering willingness to pay.",
+    "topic": "Demand",
+    "difficulty": "medium"
+  },
+  {
+    "id": 3062,
+    "type": "truefalse",
+    "text": "A rise in the market price causes a movement along the supply curve (higher quantity supplied).",
+    "correct": true,
+    "explanation": "Correct. Own-price changes create movements along the supply curve.",
+    "topic": "Supply",
+    "difficulty": "easy"
+  },
+  {
+    "id": 3067,
+    "type": "multiple",
+    "text": "Price elasticity of demand (PED) measures:",
+    "options": [
+      "Responsiveness of Qd to price changes",
+      "Responsiveness of Qs to price changes",
+      "Responsiveness of price to income changes",
+      "Responsiveness of Qd to advertising"
+    ],
+    "correct": 0,
+    "explanation": "PED is %ΔQd / %ΔP.",
+    "topic": "Elasticity",
+    "difficulty": "easy"
+  },
+  {
+    "id": 3157,
+    "type": "calculation",
+    "text": "If demand is Qd = 90 - 4P and supply is Qs = 10 + 2P, what is the equilibrium price?",
+    "correct": 13.33,
+    "tolerance": 0.1,
+    "explanation": "Set Qd=Qs: 90-4P=10+2P → 80=6P → P=13.33.",
+    "topic": "Market Equilibrium",
+    "difficulty": "medium",
+    "steps": [
+      "Set Qd=Qs: 90-4P=10+2P",
+      "80=6P",
+      "P=13.33"
+    ]
+  },
+  {
+    "id": 3178,
+    "type": "calculation",
+    "text": "A £5 tax is imposed. Price consumers pay rises from £8 to £10. What % of the tax is borne by consumers?",
+    "correct": 40.0,
+    "tolerance": 1.0,
+    "explanation": "Consumers pay £2 of £5 → 2/5 = 40.0%.",
+    "topic": "Tax Incidence",
+    "difficulty": "medium",
+    "steps": [
+      "Consumers pay £2 of £5",
+      "2/5 = 40.0%"
+    ]
+  },
+  {
+    "id": 3150,
+    "type": "calculation",
+    "text": "A £5 tax is imposed. Price consumers pay rises from £10 to £12. What % of the tax is borne by consumers?",
+    "correct": 40.0,
+    "tolerance": 1.0,
+    "explanation": "Consumers pay £2 of £5 → 2/5 = 40.0%.",
+    "topic": "Tax Incidence",
+    "difficulty": "medium",
+    "steps": [
+      "Consumers pay £2 of £5",
+      "2/5 = 40.0%"
+    ]
+  },
+  {
+    "id": 3060,
+    "type": "calculation",
+    "text": "If TR = 80Q - Q², what is MR when Q=10?",
+    "correct": 60,
+    "tolerance": 0.1,
+    "explanation": "MR=dTR/dQ=80-2Q. At Q=10, MR=60.",
+    "topic": "Revenues & Profit",
+    "difficulty": "hard",
+    "steps": [
+      "MR=dTR/dQ=80-2Q",
+      "At Q=10, MR=60"
+    ]
+  },
+  {
+    "id": 3080,
+    "type": "multiple",
+    "text": "In perfect competition, marginal revenue (MR) equals:",
+    "options": [
+      "Price (P)",
+      "Average cost (AC)",
+      "Marginal cost (MC)",
+      "Fixed cost (FC)"
+    ],
+    "correct": 0,
+    "explanation": "Competitive firms face horizontal demand, so P=MR.",
+    "topic": "Revenues & Profit",
+    "difficulty": "easy"
+  },
+  {
+    "id": 3023,
+    "type": "calculation",
+    "text": "A monopolist faces demand P = 60 - Q and has MC = 12. What price does it charge?",
+    "correct": 36,
+    "tolerance": 0.1,
+    "explanation": "MR=60-2Q. MR=MC → Q=24. P=60-24=36.",
+    "topic": "Monopoly",
+    "difficulty": "hard",
+    "steps": [
+      "MR=60-2Q. MR=MC",
+      "Q=24. P=60-24=36"
+    ]
+  },
+  {
+    "id": 3053,
+    "type": "calculation",
+    "text": "If a monopolist faces demand P = 60 - Q and has MC = 20, what price does it charge?",
+    "correct": 40.0,
+    "tolerance": 0.1,
+    "explanation": "MR = 60 - 2Q. Set MR=MC: 60-2Q=20 → Q=20.00. Then P=40.0.",
+    "topic": "Monopoly",
+    "difficulty": "hard",
+    "steps": [
+      "MR = 60 - 2Q. Set MR=MC: 60-2Q=20",
+      "Q=20.00. Then P=40.0"
+    ]
+  },
+  {
+    "id": 3103,
+    "type": "calculation",
+    "text": "If a monopolist faces demand P = 70 - Q and has MC = 12, what price does it charge?",
+    "correct": 41.0,
+    "tolerance": 0.1,
+    "explanation": "MR = 70 - 2Q. Set MR=MC: 70-2Q=12 → Q=29.00. Then P=41.0.",
+    "topic": "Monopoly",
+    "difficulty": "hard",
+    "steps": [
+      "MR = 70 - 2Q. Set MR=MC: 70-2Q=12",
+      "Q=29.00. Then P=41.0"
+    ]
+  },
+  {
+    "id": 3170,
+    "type": "calculation",
+    "text": "A £5 tax is imposed. Price consumers pay rises from £16 to £19. What % of the tax is borne by consumers?",
+    "correct": 60.0,
+    "tolerance": 1.0,
+    "explanation": "Consumers pay £3 of £5 → 3/5 = 60.0%.",
+    "topic": "Tax Incidence",
+    "difficulty": "medium",
+    "steps": [
+      "Consumers pay £3 of £5",
+      "3/5 = 60.0%"
+    ]
+  },
+  {
+    "id": 3184,
+    "type": "calculation",
+    "text": "If demand is Qd = 100 - 2P and supply is Qs = 30 + 3P, what is the equilibrium price?",
+    "correct": 14.0,
+    "tolerance": 0.1,
+    "explanation": "Set Qd=Qs: 100-2P=30+3P → 70=5P → P=14.0.",
+    "topic": "Market Equilibrium",
+    "difficulty": "medium",
+    "steps": [
+      "Set Qd=Qs: 100-2P=30+3P",
+      "70=5P",
+      "P=14.0"
+    ]
+  },
+  {
+    "id": 3154,
+    "type": "calculation",
+    "text": "If demand is Qd = 100 - 3P and supply is Qs = 10 + 3P, what is the equilibrium price?",
+    "correct": 15.0,
+    "tolerance": 0.1,
+    "explanation": "Set Qd=Qs: 100-3P=10+3P → 90=6P → P=15.0.",
+    "topic": "Market Equilibrium",
+    "difficulty": "medium",
+    "steps": [
+      "Set Qd=Qs: 100-3P=10+3P",
+      "90=6P",
+      "P=15.0"
+    ]
+  },
+  {
+    "id": 3069,
+    "type": "calculation",
+    "text": "Price rises by 10% and quantity demanded falls by 25%. What is PED?",
+    "correct": -2.5,
+    "tolerance": 0.05,
+    "explanation": "PED = -25% / 10% = -2.5.",
+    "topic": "Elasticity",
+    "difficulty": "medium",
+    "steps": [
+      "PED = -25% / 10% = -2.5"
+    ]
+  },
+  {
+    "id": 3072,
+    "type": "calculation",
+    "text": "If demand is Qd = 120 - 3P and supply is Qs = 30 + 2P, what is the equilibrium price?",
+    "correct": 18,
+    "tolerance": 0.1,
+    "explanation": "Set Qd=Qs: 120-3P=30+2P → 90=5P → P=18.",
+    "topic": "Market Equilibrium",
+    "difficulty": "medium",
+    "steps": [
+      "Set Qd=Qs: 120-3P=30+2P",
+      "90=5P",
+      "P=18"
+    ]
+  },
+  {
+    "id": 3126,
+    "type": "calculation",
+    "text": "If demand is Qd = 90 - 2P and supply is Qs = 20 + 2P, what is the equilibrium price?",
+    "correct": 17.5,
+    "tolerance": 0.1,
+    "explanation": "Set Qd=Qs: 90-2P=20+2P → 70=4P → P=17.5.",
+    "topic": "Market Equilibrium",
+    "difficulty": "medium",
+    "steps": [
+      "Set Qd=Qs: 90-2P=20+2P",
+      "70=4P",
+      "P=17.5"
+    ]
+  },
+  {
+    "id": 3143,
+    "type": "calculation",
+    "text": "If demand is Qd = 90 - 4P and supply is Qs = 40 + 2P, what is the equilibrium price?",
+    "correct": 8.33,
+    "tolerance": 0.1,
+    "explanation": "Set Qd=Qs: 90-4P=40+2P → 50=6P → P=8.33.",
+    "topic": "Market Equilibrium",
+    "difficulty": "medium",
+    "steps": [
+      "Set Qd=Qs: 90-4P=40+2P",
+      "50=6P",
+      "P=8.33"
+    ]
+  }
+]

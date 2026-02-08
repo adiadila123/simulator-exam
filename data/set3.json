@@ -1,0 +1,261 @@
+[
+  {
+    "id": 3006,
+    "type": "truefalse",
+    "text": "Economics studies how societies allocate scarce resources to satisfy unlimited wants.",
+    "correct": true,
+    "explanation": "Correct. Scarcity means limited resources relative to wants; economics studies allocation under scarcity.",
+    "topic": "Introduction",
+    "difficulty": "easy"
+  },
+  {
+    "id": 3045,
+    "type": "multiple",
+    "text": "Which is an implicit cost?",
+    "options": [
+      "Rent paid for office space",
+      "Wages paid to workers",
+      "Forgone salary of the owner working in the business",
+      "Cost of raw materials"
+    ],
+    "correct": 2,
+    "explanation": "Implicit costs include opportunity costs like forgone salary.",
+    "topic": "Opportunity Cost",
+    "difficulty": "medium"
+  },
+  {
+    "id": 3033,
+    "type": "multiple",
+    "text": "If two goods are complements, their cross-price elasticity is:",
+    "options": [
+      "Positive",
+      "Negative",
+      "Zero",
+      "Always greater than 1"
+    ],
+    "correct": 1,
+    "explanation": "Complements have negative cross-price elasticity.",
+    "topic": "Demand",
+    "difficulty": "medium"
+  },
+  {
+    "id": 3034,
+    "type": "multiple",
+    "text": "Which factor shifts demand to the right?",
+    "options": [
+      "A decrease in the good’s own price",
+      "An increase in income for a normal good",
+      "A decrease in consumer tastes",
+      "A decrease in the price of a substitute"
+    ],
+    "correct": 1,
+    "explanation": "Income rising increases demand for normal goods at all prices (shift right).",
+    "topic": "Demand",
+    "difficulty": "medium"
+  },
+  {
+    "id": 3117,
+    "type": "calculation",
+    "text": "If demand is Qd = 120 - 2P and supply is Qs = 10 + 2P, what is the equilibrium price?",
+    "correct": 27.5,
+    "tolerance": 0.1,
+    "explanation": "Set Qd=Qs: 120-2P=10+2P → 110=4P → P=27.5.",
+    "topic": "Market Equilibrium",
+    "difficulty": "medium",
+    "steps": [
+      "Set Qd=Qs: 120-2P=10+2P",
+      "110=4P",
+      "P=27.5"
+    ]
+  },
+  {
+    "id": 3166,
+    "type": "calculation",
+    "text": "If demand is Qd = 90 - 4P and supply is Qs = 40 + 1P, what is the equilibrium price?",
+    "correct": 10.0,
+    "tolerance": 0.1,
+    "explanation": "Set Qd=Qs: 90-4P=40+1P → 50=5P → P=10.0.",
+    "topic": "Market Equilibrium",
+    "difficulty": "medium",
+    "steps": [
+      "Set Qd=Qs: 90-4P=40+1P",
+      "50=5P",
+      "P=10.0"
+    ]
+  },
+  {
+    "id": 3099,
+    "type": "calculation",
+    "text": "A £5 tax is imposed. Price consumers pay rises from £12 to £14. What % of the tax is borne by consumers?",
+    "correct": 40.0,
+    "tolerance": 1.0,
+    "explanation": "Consumers pay £2 of £5 → 2/5 = 40.0%.",
+    "topic": "Tax Incidence",
+    "difficulty": "medium",
+    "steps": [
+      "Consumers pay £2 of £5",
+      "2/5 = 40.0%"
+    ]
+  },
+  {
+    "id": 3162,
+    "type": "calculation",
+    "text": "A £5 tax is imposed. Price consumers pay rises from £12 to £13. What % of the tax is borne by consumers?",
+    "correct": 20.0,
+    "tolerance": 1.0,
+    "explanation": "Consumers pay £1 of £5 → 1/5 = 20.0%.",
+    "topic": "Tax Incidence",
+    "difficulty": "medium",
+    "steps": [
+      "Consumers pay £1 of £5",
+      "1/5 = 20.0%"
+    ]
+  },
+  {
+    "id": 3029,
+    "type": "truefalse",
+    "text": "Economic profit equals total revenue minus total opportunity cost.",
+    "correct": true,
+    "explanation": "Correct. Economic costs include explicit and implicit costs.",
+    "topic": "Revenues & Profit",
+    "difficulty": "medium"
+  },
+  {
+    "id": 3005,
+    "type": "multiple",
+    "text": "If MC is below AC, then AC is:",
+    "options": [
+      "Falling",
+      "Rising",
+      "At its minimum",
+      "Zero"
+    ],
+    "correct": 0,
+    "explanation": "MC below AC pulls AC down, so AC is falling.",
+    "topic": "Costs",
+    "difficulty": "medium"
+  },
+  {
+    "id": 3021,
+    "type": "truefalse",
+    "text": "In perfect competition, firms are price takers.",
+    "correct": true,
+    "explanation": "Correct. Each firm faces perfectly elastic demand at the market price.",
+    "topic": "Perfect Competition",
+    "difficulty": "easy"
+  },
+  {
+    "id": 3098,
+    "type": "calculation",
+    "text": "If a monopolist faces demand P = 60 - Q and has MC = 15, what price does it charge?",
+    "correct": 37.5,
+    "tolerance": 0.1,
+    "explanation": "MR = 60 - 2Q. Set MR=MC: 60-2Q=15 → Q=22.50. Then P=37.5.",
+    "topic": "Monopoly",
+    "difficulty": "hard",
+    "steps": [
+      "MR = 60 - 2Q. Set MR=MC: 60-2Q=15",
+      "Q=22.50. Then P=37.5"
+    ]
+  },
+  {
+    "id": 3047,
+    "type": "truefalse",
+    "text": "Firms in monopolistic competition face downward-sloping demand curves.",
+    "correct": true,
+    "explanation": "Correct. Differentiation gives each firm some market power.",
+    "topic": "Monopolistic Competition",
+    "difficulty": "medium"
+  },
+  {
+    "id": 3044,
+    "type": "truefalse",
+    "text": "Oligopoly is characterised by strategic interdependence among a few firms.",
+    "correct": true,
+    "explanation": "Correct. Each firm considers rivals’ reactions.",
+    "topic": "Oligopoly",
+    "difficulty": "medium"
+  },
+  {
+    "id": 3136,
+    "type": "calculation",
+    "text": "If demand is Qd = 90 - 2P and supply is Qs = 40 + 3P, what is the equilibrium price?",
+    "correct": 10.0,
+    "tolerance": 0.1,
+    "explanation": "Set Qd=Qs: 90-2P=40+3P → 50=5P → P=10.0.",
+    "topic": "Market Equilibrium",
+    "difficulty": "medium",
+    "steps": [
+      "Set Qd=Qs: 90-2P=40+3P",
+      "50=5P",
+      "P=10.0"
+    ]
+  },
+  {
+    "id": 3084,
+    "type": "calculation",
+    "text": "If a monopolist faces demand P = 70 - Q and has MC = 20, what price does it charge?",
+    "correct": 45.0,
+    "tolerance": 0.1,
+    "explanation": "MR = 70 - 2Q. Set MR=MC: 70-2Q=20 → Q=25.00. Then P=45.0.",
+    "topic": "Monopoly",
+    "difficulty": "hard",
+    "steps": [
+      "MR = 70 - 2Q. Set MR=MC: 70-2Q=20",
+      "Q=25.00. Then P=45.0"
+    ]
+  },
+  {
+    "id": 3009,
+    "type": "truefalse",
+    "text": "Public goods are non-rival and non-excludable.",
+    "correct": true,
+    "explanation": "Correct. This causes free-rider problems.",
+    "topic": "Market Failure",
+    "difficulty": "medium"
+  },
+  {
+    "id": 3019,
+    "type": "multiple",
+    "text": "Collusion in oligopoly aims to:",
+    "options": [
+      "Increase joint profits by restricting output",
+      "Increase competition and lower prices",
+      "Eliminate barriers to entry",
+      "Guarantee zero profit"
+    ],
+    "correct": 0,
+    "explanation": "Collusion mimics monopoly outcomes (higher price, lower output).",
+    "topic": "Oligopoly",
+    "difficulty": "medium"
+  },
+  {
+    "id": 3175,
+    "type": "calculation",
+    "text": "If demand is Qd = 90 - 5P and supply is Qs = 20 + 3P, what is the equilibrium price?",
+    "correct": 8.75,
+    "tolerance": 0.1,
+    "explanation": "Set Qd=Qs: 90-5P=20+3P → 70=8P → P=8.75.",
+    "topic": "Market Equilibrium",
+    "difficulty": "medium",
+    "steps": [
+      "Set Qd=Qs: 90-5P=20+3P",
+      "70=8P",
+      "P=8.75"
+    ]
+  },
+  {
+    "id": 3039,
+    "type": "calculation",
+    "text": "If a monopolist faces demand P = 80 - Q and has MC = 20, what price does it charge?",
+    "correct": 50.0,
+    "tolerance": 0.1,
+    "explanation": "MR = 80 - 2Q. Set MR=MC: 80-2Q=20 → Q=30.00. Then P=50.0.",
+    "topic": "Monopoly",
+    "difficulty": "hard",
+    "steps": [
+      "MR = 80 - 2Q. Set MR=MC: 80-2Q=20",
+      "Q=30.00. Then P=50.0"
+    ]
+  }
+]

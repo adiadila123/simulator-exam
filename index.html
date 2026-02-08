@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microeconomics Exam Trainer | CCCU</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="logo">
+                <i class="fas fa-chart-line"></i>
+                <h1>Microeconomics Exam Trainer</h1>
+            </div>
+            <div class="subtitle">
+                <p>Canterbury Christ Church University | Computer-Based Local Exam Preparation</p>
+                <p class="timer-display" id="timer">Time: 50:00</p>
+            </div>
+        </header>
+
+        <!-- Selection Screen -->
+        <div class="selection-screen" id="selectionScreen">
+            <div class="selection-card">
+                <h2><i class="fas fa-graduation-cap"></i> Select Exam Module</h2>
+
+                <div class="module-options">
+                    <div class="module-card" data-module="micro1">
+                        <h3>Microeconomics I</h3>
+                        <p>Weeks 1-4: Demand & Supply, Elasticities, Equilibrium, Markets</p>
+                        <div class="module-stats">
+                            <span><i class="fas fa-question-circle"></i> 50 questions</span>
+                            <span><i class="fas fa-clock"></i> 25 min suggested</span>
+                        </div>
+                    </div>
+
+                    <div class="module-card" data-module="micro2">
+                        <h3>Microeconomics II</h3>
+                        <p>Weeks 6-9: Theory of the Firm, Market Structures</p>
+                        <div class="module-stats">
+                            <span><i class="fas fa-question-circle"></i> 45 questions</span>
+                            <span><i class="fas fa-clock"></i> 25 min suggested</span>
+                        </div>
+                    </div>
+
+                    <div class="module-card" data-module="mixed">
+                        <h3>Mixed Questions</h3>
+                        <p>Full CBLA Simulation: 20 random questions from all topics</p>
+                        <div class="module-stats">
+                            <span><i class="fas fa-random"></i> Random selection</span>
+                            <span><i class="fas fa-clock"></i> 50 min exam time</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="settings">
+                    <h3>Exam Settings</h3>
+                    <div class="setting-option">
+                        <label>
+                            <input type="checkbox" id="timedMode" checked>
+                            Timed Mode (50 minutes)
+                        </label>
+                    </div>
+                    <div class="setting-option">
+                        <label>
+                            <input type="checkbox" id="instantFeedback" checked>
+                            Instant Feedback
+                        </label>
+                    </div>
+                    <div class="setting-option">
+                        <label for="setSelect">Select Exam Set:</label>
+                        <select id="setSelect">
+                            <option value="random">Random Set</option>
+                            <option value="1">Set 1</option>
+                            <option value="2">Set 2</option>
+                            <option value="3">Set 3</option>
+                            <option value="4">Set 4</option>
+                            <option value="5">Set 5</option>
+                            <option value="6">Set 6</option>
+                            <option value="7">Set 7</option>
+                            <option value="8">Set 8</option>
+                            <option value="9">Set 9</option>
+                            <option value="10">Set 10</option>
+                        </select>
+                    </div>
+                    <button class="btn-start" id="startBtn">
+                        <i class="fas fa-play-circle"></i> Start Mock Exam
+                    </button>
+                </div>
+            </div>
+
+            <div class="quick-stats">
+                <div class="stat-card">
+                    <i class="fas fa-history"></i>
+                    <h4>Last Score</h4>
+                    <p id="lastScore">-</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-trophy"></i>
+                    <h4>Best Score</h4>
+                    <p id="bestScore">-</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-percentage"></i>
+                    <h4>Average</h4>
+                    <p id="averageScore">-</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Quiz Screen (Hidden by default) -->
+        <div class="quiz-screen" id="quizScreen" style="display: none;">
+            <div class="quiz-header">
+                <div class="quiz-info">
+                    <h2 id="currentModule">Microeconomics I</h2>
+                    <div class="progress-container">
+                        <div class="progress-bar" id="progressBar"></div>
+                    </div>
+                </div>
+                <div class="quiz-controls">
+                    <div class="time-box">
+                        <i class="fas fa-clock"></i>
+                        <span id="quizTimer">50:00</span>
+                    </div>
+                    <div class="score-box">
+                        <i class="fas fa-star"></i>
+                        <span id="currentScore">Score: 0/0</span>
+                    </div>
+                    <button class="btn-exit" id="exitBtn">
+                        <i class="fas fa-sign-out-alt"></i> Exit
+                    </button>
+                </div>
+            </div>
+
+            <div class="question-container">
+                <div class="question-card" id="questionCard">
+                    <div class="question-header">
+                        <span class="question-number" id="questionNumber">Question 1 of 20</span>
+                        <span class="question-type" id="questionType">Multiple Choice</span>
+                    </div>
+
+                    <div class="question-text" id="questionText">
+                        Loading question...
+                    </div>
+
+                    <div id="topicInfo" class="topic-info"></div>
+
+                    <!-- For multiple choice questions -->
+                    <div class="options-container" id="optionsContainer">
+                        <!-- Options will be generated here by JavaScript -->
+                    </div>
+
+                    <!-- For true/false questions -->
+                    <div class="truefalse-container" id="trueFalseContainer" style="display: none;">
+                        <button class="btn-tf" data-answer="true">
+                            <i class="fas fa-check-circle"></i> True
+                        </button>
+                        <button class="btn-tf" data-answer="false">
+                            <i class="fas fa-times-circle"></i> False
+                        </button>
+                    </div>
+
+                    <!-- For calculation questions -->
+                    <div class="calculation-container" id="calculationContainer" style="display: none;">
+                        <div class="calculation-input-row">
+                            <input type="text" id="calculationInput" inputmode="decimal" placeholder="Enter your answer...">
+                            <button class="btn-submit-calc" id="submitCalcBtn">Submit Answer</button>
+                        </div>
+                        <div class="calculation-workspace">
+                            <div class="workspace-panel">
+                                <label for="workingArea">Working area</label>
+                                <textarea id="workingArea" rows="6" placeholder="Write your calculations here..."></textarea>
+                                <div class="workspace-actions">
+                                    <button class="btn-work" id="copyWorkingBtn">Copy steps to answer</button>
+                                    <button class="btn-work secondary" id="resetWorkingBtn">Reset working area</button>
+                                </div>
+                            </div>
+                            <div class="calculator-panel">
+                                <label for="calculatorDisplay">Calculator</label>
+                                <input type="text" id="calculatorDisplay" class="calc-display" placeholder="0">
+                                <div class="calculator-buttons" id="calculatorButtons">
+                                    <button class="calc-btn action" data-action="clear">C</button>
+                                    <button class="calc-btn action" data-action="backspace">⌫</button>
+                                    <button class="calc-btn operator" data-value="(">(</button>
+                                    <button class="calc-btn operator" data-value=")">)</button>
+                                    <button class="calc-btn operator" data-value="%">%</button>
+                                    <button class="calc-btn" data-value="7">7</button>
+                                    <button class="calc-btn" data-value="8">8</button>
+                                    <button class="calc-btn" data-value="9">9</button>
+                                    <button class="calc-btn operator" data-value="/">÷</button>
+                                    <button class="calc-btn" data-value="4">4</button>
+                                    <button class="calc-btn" data-value="5">5</button>
+                                    <button class="calc-btn" data-value="6">6</button>
+                                    <button class="calc-btn operator" data-value="*">×</button>
+                                    <button class="calc-btn" data-value="1">1</button>
+                                    <button class="calc-btn" data-value="2">2</button>
+                                    <button class="calc-btn" data-value="3">3</button>
+                                    <button class="calc-btn operator" data-value="-">−</button>
+                                    <button class="calc-btn" data-value="0">0</button>
+                                    <button class="calc-btn" data-value=".">.</button>
+                                    <button class="calc-btn equal" data-action="equals">=</button>
+                                    <button class="calc-btn operator" data-value="+">+</button>
+                                </div>
+                                <button class="btn-use-result" id="useResultBtn">Use Result</button>
+                                <div class="calc-history">
+                                    <div class="calc-history-header">History</div>
+                                    <ul class="calc-history-list" id="calcHistory"></ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Feedback area -->
+                    <div class="feedback-container" id="feedbackContainer" style="display: none;">
+                        <div class="feedback correct" id="correctFeedback">
+                            <i class="fas fa-check"></i>
+                            <h3>Correct!</h3>
+                            <p id="correctExplanation">Well done!</p>
+                        </div>
+                        <div class="feedback incorrect" id="incorrectFeedback">
+                            <i class="fas fa-times"></i>
+                            <h3>Incorrect</h3>
+                            <p id="incorrectExplanation">The correct answer is: <span id="correctAnswerText"></span></p>
+                        </div>
+                    </div>
+
+                    <!-- Navigation buttons -->
+                    <div class="navigation-buttons">
+                        <button class="btn-nav" id="prevBtn" disabled>
+                            <i class="fas fa-arrow-left"></i> Previous
+                        </button>
+                        <button class="btn-nav" id="nextBtn">
+                            Next <i class="fas fa-arrow-right"></i>
+                        </button>
+                        <button class="btn-finish" id="finishBtn">
+                            <i class="fas fa-flag-checkered"></i> Finish Exam
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Results Screen (Hidden by default) -->
+        <div class="results-screen" id="resultsScreen" style="display: none;">
+            <div class="results-card">
+                <div class="results-header">
+                    <h2><i class="fas fa-medal"></i> Exam Results</h2>
+                    <p id="resultsSubtitle">Microeconomics I Mock Exam</p>
+                </div>
+
+                <div class="score-display">
+                    <div class="score-circle">
+                        <svg width="120" height="120" viewBox="0 0 120 120">
+                            <circle cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="12"></circle>
+                            <circle class="score-arc" cx="60" cy="60" r="54" fill="none" stroke="#4CAF50"
+                                stroke-width="12" stroke-dasharray="339.292" stroke-dashoffset="339.292"
+                                stroke-linecap="round"></circle>
+                        </svg>
+                        <div class="score-text">
+                            <span id="finalScore">0</span>
+                            <small>%</small>
+                        </div>
+                    </div>
+
+                    <div class="score-details">
+                        <div class="detail-item">
+                            <span class="detail-label">Correct Answers:</span>
+                            <span class="detail-value" id="correctCount">0</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Total Questions:</span>
+                            <span class="detail-value" id="totalCount">0</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Time Taken:</span>
+                            <span class="detail-value" id="timeTaken">0:00</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Date:</span>
+                            <span class="detail-value" id="examDate">-</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="results-actions">
+                    <button class="btn-review" id="reviewBtn">
+                        <i class="fas fa-search"></i> Review Incorrect Answers
+                    </button>
+                    <button class="btn-retry" id="retryBtn">
+                        <i class="fas fa-redo"></i> Try Again
+                    </button>
+                    <button class="btn-new" id="newExamBtn">
+                        <i class="fas fa-plus-circle"></i> New Exam
+                    </button>
+                </div>
+
+                <div class="performance-tips">
+                    <h3><i class="fas fa-lightbulb"></i> Study Tips</h3>
+                    <ul id="performanceTips">
+                        <li>Review demand and supply curves</li>
+                        <li>Practise elasticity calculations</li>
+                        <li>Study different market structures</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>Economics Exam Trainer | Based on CCCU Microeconomics Curriculum | © 2025</p>
+        <p class="disclaimer">This is a practice tool. Actual exam questions may vary.</p>
+    </footer>
+
+    <script src="calculator.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

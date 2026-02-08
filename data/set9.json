@@ -1,0 +1,290 @@
+[
+  {
+    "id": 3155,
+    "type": "calculation",
+    "text": "If demand is Qd = 100 - 3P and supply is Qs = 30 + 3P, what is the equilibrium price?",
+    "correct": 11.67,
+    "tolerance": 0.1,
+    "explanation": "Set Qd=Qs: 100-3P=30+3P → 70=6P → P=11.67.",
+    "topic": "Market Equilibrium",
+    "difficulty": "medium",
+    "steps": [
+      "Set Qd=Qs: 100-3P=30+3P",
+      "70=6P",
+      "P=11.67"
+    ]
+  },
+  {
+    "id": 3096,
+    "type": "calculation",
+    "text": "If demand is Qd = 90 - 3P and supply is Qs = 30 + 2P, what is the equilibrium price?",
+    "correct": 12.0,
+    "tolerance": 0.1,
+    "explanation": "Set Qd=Qs: 90-3P=30+2P → 60=5P → P=12.0.",
+    "topic": "Market Equilibrium",
+    "difficulty": "medium",
+    "steps": [
+      "Set Qd=Qs: 90-3P=30+2P",
+      "60=5P",
+      "P=12.0"
+    ]
+  },
+  {
+    "id": 3135,
+    "type": "calculation",
+    "text": "A £3 tax is imposed. Price consumers pay rises from £14 to £15. What % of the tax is borne by consumers?",
+    "correct": 33.33,
+    "tolerance": 1.0,
+    "explanation": "Consumers pay £1 of £3 → 1/3 = 33.33%.",
+    "topic": "Tax Incidence",
+    "difficulty": "medium",
+    "steps": [
+      "Consumers pay £1 of £3",
+      "1/3 = 33.33%"
+    ]
+  },
+  {
+    "id": 3172,
+    "type": "calculation",
+    "text": "A £4 tax is imposed. Price consumers pay rises from £16 to £19. What % of the tax is borne by consumers?",
+    "correct": 75.0,
+    "tolerance": 1.0,
+    "explanation": "Consumers pay £3 of £4 → 3/4 = 75.0%.",
+    "topic": "Tax Incidence",
+    "difficulty": "medium",
+    "steps": [
+      "Consumers pay £3 of £4",
+      "3/4 = 75.0%"
+    ]
+  },
+  {
+    "id": 3058,
+    "type": "multiple",
+    "text": "If |PED| > 1, demand is:",
+    "options": [
+      "Inelastic",
+      "Unit elastic",
+      "Elastic",
+      "Perfectly inelastic"
+    ],
+    "correct": 2,
+    "explanation": "Elastic demand means quantity responds proportionally more than price.",
+    "topic": "Elasticity",
+    "difficulty": "easy"
+  },
+  {
+    "id": 3113,
+    "type": "calculation",
+    "text": "A £3 tax is imposed. Price consumers pay rises from £8 to £10. What % of the tax is borne by consumers?",
+    "correct": 66.67,
+    "tolerance": 1.0,
+    "explanation": "Consumers pay £2 of £3 → 2/3 = 66.67%.",
+    "topic": "Tax Incidence",
+    "difficulty": "medium",
+    "steps": [
+      "Consumers pay £2 of £3",
+      "2/3 = 66.67%"
+    ]
+  },
+  {
+    "id": 3057,
+    "type": "truefalse",
+    "text": "A binding price ceiling set below equilibrium price creates a shortage.",
+    "correct": true,
+    "explanation": "Correct. At the ceiling, Qd>Qs.",
+    "topic": "Price Controls",
+    "difficulty": "medium"
+  },
+  {
+    "id": 3122,
+    "type": "calculation",
+    "text": "If demand is Qd = 90 - 4P and supply is Qs = 20 + 1P, what is the equilibrium price?",
+    "correct": 14.0,
+    "tolerance": 0.1,
+    "explanation": "Set Qd=Qs: 90-4P=20+1P → 70=5P → P=14.0.",
+    "topic": "Market Equilibrium",
+    "difficulty": "medium",
+    "steps": [
+      "Set Qd=Qs: 90-4P=20+1P",
+      "70=5P",
+      "P=14.0"
+    ]
+  },
+  {
+    "id": 3107,
+    "type": "calculation",
+    "text": "If demand is Qd = 100 - 5P and supply is Qs = 10 + 2P, what is the equilibrium price?",
+    "correct": 12.86,
+    "tolerance": 0.1,
+    "explanation": "Set Qd=Qs: 100-5P=10+2P → 90=7P → P=12.86.",
+    "topic": "Market Equilibrium",
+    "difficulty": "medium",
+    "steps": [
+      "Set Qd=Qs: 100-5P=10+2P",
+      "90=7P",
+      "P=12.86"
+    ]
+  },
+  {
+    "id": 3131,
+    "type": "calculation",
+    "text": "If demand is Qd = 130 - 4P and supply is Qs = 30 + 3P, what is the equilibrium price?",
+    "correct": 14.29,
+    "tolerance": 0.1,
+    "explanation": "Set Qd=Qs: 130-4P=30+3P → 100=7P → P=14.29.",
+    "topic": "Market Equilibrium",
+    "difficulty": "medium",
+    "steps": [
+      "Set Qd=Qs: 130-4P=30+3P",
+      "100=7P",
+      "P=14.29"
+    ]
+  },
+  {
+    "id": 3190,
+    "type": "calculation",
+    "text": "A £5 tax is imposed. Price consumers pay rises from £16 to £18. What % of the tax is borne by consumers?",
+    "correct": 40.0,
+    "tolerance": 1.0,
+    "explanation": "Consumers pay £2 of £5 → 2/5 = 40.0%.",
+    "topic": "Tax Incidence",
+    "difficulty": "medium",
+    "steps": [
+      "Consumers pay £2 of £5",
+      "2/5 = 40.0%"
+    ]
+  },
+  {
+    "id": 3173,
+    "type": "calculation",
+    "text": "If demand is Qd = 120 - 2P and supply is Qs = 40 + 1P, what is the equilibrium price?",
+    "correct": 26.67,
+    "tolerance": 0.1,
+    "explanation": "Set Qd=Qs: 120-2P=40+1P → 80=3P → P=26.67.",
+    "topic": "Market Equilibrium",
+    "difficulty": "medium",
+    "steps": [
+      "Set Qd=Qs: 120-2P=40+1P",
+      "80=3P",
+      "P=26.67"
+    ]
+  },
+  {
+    "id": 3140,
+    "type": "calculation",
+    "text": "If demand is Qd = 130 - 5P and supply is Qs = 20 + 3P, what is the equilibrium price?",
+    "correct": 13.75,
+    "tolerance": 0.1,
+    "explanation": "Set Qd=Qs: 130-5P=20+3P → 110=8P → P=13.75.",
+    "topic": "Market Equilibrium",
+    "difficulty": "medium",
+    "steps": [
+      "Set Qd=Qs: 130-5P=20+3P",
+      "110=8P",
+      "P=13.75"
+    ]
+  },
+  {
+    "id": 3174,
+    "type": "calculation",
+    "text": "If demand is Qd = 120 - 2P and supply is Qs = 20 + 1P, what is the equilibrium price?",
+    "correct": 33.33,
+    "tolerance": 0.1,
+    "explanation": "Set Qd=Qs: 120-2P=20+1P → 100=3P → P=33.33.",
+    "topic": "Market Equilibrium",
+    "difficulty": "medium",
+    "steps": [
+      "Set Qd=Qs: 120-2P=20+1P",
+      "100=3P",
+      "P=33.33"
+    ]
+  },
+  {
+    "id": 3116,
+    "type": "calculation",
+    "text": "If demand is Qd = 100 - 4P and supply is Qs = 20 + 1P, what is the equilibrium price?",
+    "correct": 16.0,
+    "tolerance": 0.1,
+    "explanation": "Set Qd=Qs: 100-4P=20+1P → 80=5P → P=16.0.",
+    "topic": "Market Equilibrium",
+    "difficulty": "medium",
+    "steps": [
+      "Set Qd=Qs: 100-4P=20+1P",
+      "80=5P",
+      "P=16.0"
+    ]
+  },
+  {
+    "id": 3151,
+    "type": "calculation",
+    "text": "A £2 tax is imposed. Price consumers pay rises from £8 to £9. What % of the tax is borne by consumers?",
+    "correct": 50.0,
+    "tolerance": 1.0,
+    "explanation": "Consumers pay £1 of £2 → 1/2 = 50.0%.",
+    "topic": "Tax Incidence",
+    "difficulty": "medium",
+    "steps": [
+      "Consumers pay £1 of £2",
+      "1/2 = 50.0%"
+    ]
+  },
+  {
+    "id": 3082,
+    "type": "calculation",
+    "text": "A £2 tax is imposed. Price consumers pay rises from £14 to £15. What % of the tax is borne by consumers?",
+    "correct": 50.0,
+    "tolerance": 1.0,
+    "explanation": "Consumers pay £1 of £2 → 1/2 = 50.0%.",
+    "topic": "Tax Incidence",
+    "difficulty": "medium",
+    "steps": [
+      "Consumers pay £1 of £2",
+      "1/2 = 50.0%"
+    ]
+  },
+  {
+    "id": 3186,
+    "type": "calculation",
+    "text": "If demand is Qd = 120 - 3P and supply is Qs = 10 + 2P, what is the equilibrium price?",
+    "correct": 22.0,
+    "tolerance": 0.1,
+    "explanation": "Set Qd=Qs: 120-3P=10+2P → 110=5P → P=22.0.",
+    "topic": "Market Equilibrium",
+    "difficulty": "medium",
+    "steps": [
+      "Set Qd=Qs: 120-3P=10+2P",
+      "110=5P",
+      "P=22.0"
+    ]
+  },
+  {
+    "id": 3177,
+    "type": "calculation",
+    "text": "If demand is Qd = 120 - 5P and supply is Qs = 40 + 2P, what is the equilibrium price?",
+    "correct": 11.43,
+    "tolerance": 0.1,
+    "explanation": "Set Qd=Qs: 120-5P=40+2P → 80=7P → P=11.43.",
+    "topic": "Market Equilibrium",
+    "difficulty": "medium",
+    "steps": [
+      "Set Qd=Qs: 120-5P=40+2P",
+      "80=7P",
+      "P=11.43"
+    ]
+  },
+  {
+    "id": 3167,
+    "type": "calculation",
+    "text": "If demand is Qd = 110 - 5P and supply is Qs = 20 + 1P, what is the equilibrium price?",
+    "correct": 15.0,
+    "tolerance": 0.1,
+    "explanation": "Set Qd=Qs: 110-5P=20+1P → 90=6P → P=15.0.",
+    "topic": "Market Equilibrium",
+    "difficulty": "medium",
+    "steps": [
+      "Set Qd=Qs: 110-5P=20+1P",
+      "90=6P",
+      "P=15.0"
+    ]
+  }
+]
